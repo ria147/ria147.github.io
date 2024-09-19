@@ -3,7 +3,7 @@
 > ECE444 Lab1
 
 ## Activity 1:
-
+![Screenshot of completion of activity 1 : cloning repo and updating README file.](/assets/img/activity1.png)
 
 ## Features 📋
 ⚡️ Fully Responsive\
