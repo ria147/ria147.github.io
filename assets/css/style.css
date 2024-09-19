@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid #910000; 
   border-radius: 50% !important;
 }
 
@@ -41,7 +41,7 @@
   width: 50px;
   height: 50px;
   border: 0;
-  color: #FFFFFF;
+  color: #ffc5c5;
   cursor: pointer;
   font-size: 30px;
   line-height: 70px;
@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #ff7474 repeat;
+  background: #ffa5a5 repeat;
   position: relative;
 }
 
@@ -473,7 +473,7 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #910000 !important;
 }
 
 #skills .card.large {
