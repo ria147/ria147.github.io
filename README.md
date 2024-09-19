@@ -20,6 +20,11 @@
 ![Screenshot of Home Page With Updated Colours](/assets/img/activity3.1.png)
 ![Screenshot of Repository](/assets/img/activity3.2.png)
 
+## Activity 4:
+> Google Maps Embedding Tutorial : https://vibrantwebs.medium.com/google-maps-html-embed-with-multiple-locations-and-custom-markers-free-eab8fbce7f9a
+![Screenshot of Places Travelled Pag](/assets/img/activity4.1.png)
+![Screenshot of Repository](/assets/img/activity4.2.png)
+
 ## Features 📋
 ⚡️ Fully Responsive\
 ⚡️ Valid HTML5 & CSS3\
@@ -40,6 +45,7 @@
 ✔️ Projects \
 ✔️ Skills \
 ✔️ Education\
+✔️ Places Travelled\
 ✔️ Contact Info\
 ✔️ Resume
 
