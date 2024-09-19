@@ -101,7 +101,8 @@ function remainingProjects(){
 
 
     for (let i=1; i<all_projects.length; i++){
-        project_to_add = all_projects[i]
+        project_to_add = all_projects[i];
+        
         document.getElementById("previous-projects").innerHTML += `
         <div class="row">
           <div class="col s12 m6 l4">
