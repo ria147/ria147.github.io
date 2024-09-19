@@ -141,9 +141,9 @@ function remainingProjects(){
               </div>
             </div>
           </div>
-    `   ;
-        
+    `   ;   
     }
+    document.getElementById("previous-projects").style.display = "none"
 
 }
 
