@@ -40,13 +40,6 @@ var all_projects = [
     }
 ]
 
-//Source: https://stackoverflow.com/questions/10123953/how-to-sort-an-object-array-by-date-property
-all_projects.sort(function(a,b){
-    // Turn your strings into dates, and then subtract them
-    // to get a value that is either negative, positive, or zero.
-    return new Date(b.date) - new Date(a.date);
-  });
-
 function displayLatestProject(){
     //Source: https://stackoverflow.com/questions/10123953/how-to-sort-an-object-array-by-date-property
     all_projects.sort(function(a,b){
@@ -96,6 +89,61 @@ function displayLatestProject(){
             </div>
           </div>
     `;
+}
+
+function remainingProjects(){
+    //Source: https://stackoverflow.com/questions/10123953/how-to-sort-an-object-array-by-date-property
+    all_projects.sort(function(a,b){
+        // Turn your strings into dates, and then subtract them
+        // to get a value that is either negative, positive, or zero.
+        return new Date(b.date) - new Date(a.date);
+    });
+
+
+    for (let i=1; i<all_projects.length; i++){
+        project_to_add = all_projects[i]
+        document.getElementById("previous-projects").innerHTML += `
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="` + project_to_add.img_alt +`" src="` + project_to_add.img_src + `" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator red-text hoverline">`+ project_to_add.title + `<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  `+ project_to_add.description+`
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> `+ project_to_add.tools + `</li>
+                  <li>` + project_to_add.accomplishments[0] + `.</li>
+                  <li>` + project_to_add.accomplishments[1] + `</li>
+                  <li>` + project_to_add.accomplishments[2] + `</li>
+                  <li>` + project_to_add.date + `</li>
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="` + project_to_add.online_src + `" target="_blank" data-position="top"
+                    data-tooltip="View Presentation Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="` + project_to_add.github_src + `"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    `   ;
+        
+    }
+
 }
 
 displayLatestProject()
