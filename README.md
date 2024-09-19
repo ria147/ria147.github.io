@@ -16,6 +16,10 @@
 ![Screenshot of Resume Page](/assets/img/activity2.8.png)
 ![Screenshot of Repository](/assets/img/activity2.9.png)
 
+## Activity 3:
+![Screenshot of Home Page With Updated Colours](/assets/img/activity3.1.png)
+![Screenshot of Repository](/assets/img/activity3.2.png)
+
 ## Features 📋
 ⚡️ Fully Responsive\
 ⚡️ Valid HTML5 & CSS3\
