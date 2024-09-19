@@ -48,7 +48,7 @@ function displayLatestProject(){
         return new Date(b.date) - new Date(a.date);
     });
 
-    latest = all_projects[0]
+    latest = all_projects[0];
 
     document.getElementById("latest-projects").innerHTML = `
         <div class="row">
@@ -102,7 +102,7 @@ function remainingProjects(){
 
     for (let i=1; i<all_projects.length; i++){
         project_to_add = all_projects[i];
-        
+
         document.getElementById("previous-projects").innerHTML += `
         <div class="row">
           <div class="col s12 m6 l4">
