@@ -5,6 +5,17 @@
 ## Activity 1:
 ![Screenshot of completion of activity 1 : cloning repo and updating README file.](/assets/img/activity1.png)
 
+## Activity 2:
+![Screenshot of Home Page](/assets/img/activity2.1.png)
+![Screenshot of About Page](/assets/img/activity2.2.png)
+![Screenshot of Experience Page](/assets/img/activity2.3.png)
+![Screenshot of Projects Page](/assets/img/activity2.4.png)
+![Screenshot of Skills Page](/assets/img/activity2.5.png)
+![Screenshot of Education Page](/assets/img/activity2.6.png)
+![Screenshot of Contact Page](/assets/img/activity2.7.png)
+![Screenshot of Resume Page](/assets/img/activity2.8.png)
+![Screenshot of Repository](/assets/img/activity2.9.png)
+
 ## Features 📋
 ⚡️ Fully Responsive\
 ⚡️ Valid HTML5 & CSS3\
