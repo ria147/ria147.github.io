@@ -25,6 +25,10 @@
 ![Screenshot of Places Travelled Pag](/assets/img/activity4.1.png)
 ![Screenshot of Repository](/assets/img/activity4.2.png)
 
+## Activity 5:
+![Screenshot of Updated Projects Page](/assets/img/activity5.1.png)
+![Screenshot of Repository](/assets/img/activity5.2.png)
+
 ## Features 📋
 ⚡️ Fully Responsive\
 ⚡️ Valid HTML5 & CSS3\
