@@ -103,7 +103,7 @@ function remainingProjects(){
     for (var i=1; i<all_projects.length; i++){
         project_to_add = all_projects[i];
 
-        document.getElementById("previous-projects").innerHTML += `
+        document.getElementById("all-projects").innerHTML += `
         <div class="row">
           <div class="col s12 m6 l4">
             <div class="card medium">
@@ -142,7 +142,7 @@ function remainingProjects(){
             </div>
           </div>`
     };
-    document.getElementById("previous-projects").style.display = "none"
+    document.getElementById("load-more-button").style.display = "none"
 
 }
 
