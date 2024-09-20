@@ -88,6 +88,7 @@ function displayLatestProject(){
               </div>
             </div>
           </div>
+        </div>
     `;
 }
 
@@ -140,9 +141,10 @@ function remainingProjects(){
                 </div>
               </div>
             </div>
-          </div>`
+          </div>
+        </div>`
     };
-    document.getElementById("load-more-button").style.display = "none"
+    document.getElementById("load-more-btn").style.display = "none"
 
 }
 
