@@ -105,7 +105,6 @@ function remainingProjects(){
         project_to_add = all_projects[i];
 
         document.getElementById("all-projects").innerHTML += `
-        <div class="row">
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
@@ -141,8 +140,7 @@ function remainingProjects(){
                 </div>
               </div>
             </div>
-          </div>
-        </div>`
+          </div>`
     };
     document.getElementById("load-more-btn").style.display = "none"
 
