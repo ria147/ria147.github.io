@@ -100,7 +100,7 @@ function remainingProjects(){
     });
 
 
-    for (let i=1; i<all_projects.length; i++){
+    for (var i=1; i<all_projects.length; i++){
         project_to_add = all_projects[i];
 
         document.getElementById("previous-projects").innerHTML += `
@@ -140,9 +140,8 @@ function remainingProjects(){
                 </div>
               </div>
             </div>
-          </div>
-    `   ;   
-    }
+          </div>`
+    };
     document.getElementById("previous-projects").style.display = "none"
 
 }
