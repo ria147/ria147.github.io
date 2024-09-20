@@ -51,7 +51,6 @@ function displayLatestProject(){
     latest = all_projects[0];
 
     document.getElementById("latest-projects").innerHTML = `
-        <div class="row">
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
@@ -88,7 +87,6 @@ function displayLatestProject(){
               </div>
             </div>
           </div>
-        </div>
     `;
 }
 
