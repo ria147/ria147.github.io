@@ -36,7 +36,7 @@ var all_projects = [
     ],
     online_src: "",
     github_src: "",
-    date : "20 September 2024"
+    date : "March 2022"
     }
 ]
 
